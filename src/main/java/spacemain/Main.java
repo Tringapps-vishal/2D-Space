@@ -1,7 +1,6 @@
 package spacemain;
 
 import java.util.*;
-import java.util.function.Supplier;
 import java.util.logging.Logger;
 
 import spacepoint.Point;
