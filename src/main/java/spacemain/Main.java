@@ -21,6 +21,12 @@ public class Main {
         log.info(" Enter Y value : ");
         int y2 = sc.nextInt();
         boolean ans = p1.equals(x2, y2);
-        log.info("Both Points are " + ans);
+        if(ans)
+        {
+            log.info("Both points are Equal.");
+        }
+        else {
+            log.info("Both points are not Equal.");
+        }
     }
 }
